@@ -1,0 +1,8 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Model Converter
+Source: https://github.com/Robinkuet1/model-converter
+
+Files: *
+Copyright: Copyright 2023 Robin Kuettel <robinkuettel@gmail.com>
+License: GPL-3
+

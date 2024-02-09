@@ -1,0 +1,18 @@
+[submodule "external/args"]
+	path = external/args
+	url = https://github.com/Taywee/args
+[submodule "external/glm"]
+	path = external/glm
+	url = https://github.com/g-truc/glm.git
+[submodule "external/Zipios"]
+	path = external/Zipios
+	url = https://github.com/Zipios/Zipios.git
+[submodule "external/ziplib"]
+	path = external/ziplib
+	url = https://bitbucket.org/wbenny/ziplib.git
+[submodule "external/ZipLib"]
+	path = external/ZipLib
+	url = https://github.com/ParadoxGameConverters/ZipLib.git
+[submodule "external/tinyobjloader"]
+	path = external/tinyobjloader
+	url = https://github.com/tinyobjloader/tinyobjloader.git

@@ -1,0 +1,10 @@
+Source: model-converter
+Section: utils
+Priority: optional
+Maintainer: Robin Kuettel <robinkuettel@gmail.com>
+Build-Depends: debhelper (>= 9), dh-golang
+Standards-Version: 4.0.0
+
+Package: model-converter
+Architecture: all
+Description: model converter used to convert 3d models to custom binary format.

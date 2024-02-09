@@ -1,0 +1,16 @@
+#!/usr/bin/make -f
+
+%:
+		dh $@
+
+override_dh_auto_build:
+override_dh_auto_test:
+override_dh_clean:
+override_dh_auto_install:
+	cmake -B build-deb
+	cmake --build build-deb --target all -- -j8
+	mkdir -p debian/model-converter/usr/bin
+	mv build-dev/model-converter debian/model-converter/usr/bin/
+
+#This line includes the standard Debian packaging rules
+include /usr/share/dpkg/pkg-info.mk
